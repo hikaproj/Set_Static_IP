@@ -51,7 +51,7 @@ for FILE in /etc/netplan/*.yaml; do
 done
 
 # 3. Set system locale
-DEFAULT_LOCALE="ja_JP.UTF-8"
+DEFAULT_LOCALE="en_US.UTF-8"
 LOCALE=$(whiptail --inputbox "Enter system locale:" 8 50 "$DEFAULT_LOCALE" --title "System Locale" 3>&1 1>&2 2>&3)
 if [ -n "$LOCALE" ]; then
     sudo locale-gen "$LOCALE"
