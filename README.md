@@ -12,6 +12,7 @@
 ### 直接取得
 
 `$ curl -OL https://raw.githubusercontent.com/hikaproj/Set_Static_IP/refs/heads/main/set_static_ip.sh`
+`$ chmod +x set_static_ip.sh`
 `$ ./set_static_ip.sh`
 
 ### ここからダウンロード
@@ -20,9 +21,10 @@
 > [set_static_ip.sh](https://setstaticip.hikaproj.f5.si/set_static_ip.sh)
 
 > [!TIP]
-> 上記のリンクでダウンロードできない際は[こちら]([https://raw.githubusercontent.com/hikaproj/Set_Static_IP/refs/heads/main/varsion/main/en-jp/1.0.0/set_static_ip.sh](https://raw.githubusercontent.com/hikaproj/Set_Static_IP/refs/heads/main/set_static_ip.sh))からダウンロードして下さい。
+> 上記のリンクでダウンロードできない際は[こちら](https://raw.githubusercontent.com/hikaproj/Set_Static_IP/refs/heads/main/varsion/main/en-jp/1.0.0/set_static_ip.sh)からダウンロードして下さい。
 
 2. 実行
+`$ chmod +x set_static_ip.sh`
 `$ ./set_static_ip.sh`
 
 ## 利用イメージ
